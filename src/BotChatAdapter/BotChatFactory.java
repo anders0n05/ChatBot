@@ -11,4 +11,9 @@ package BotChatAdapter;
  */
 public class BotChatFactory {
     
+    
+    public static  BotChat createChat(){
+        
+        return null;
+    }
 }

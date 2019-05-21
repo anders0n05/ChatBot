@@ -31,6 +31,7 @@ public class TelegramChatBot implements BotChat{
             int m = 0;
             
             while (true){
+                //commit
                 controleEnvio = bot.execute(new GetUpdates().limit(100).offset(m));
                 List<Update> mensagens = controleEnvio.updates();
                 

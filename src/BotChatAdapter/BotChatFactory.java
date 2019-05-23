@@ -14,6 +14,6 @@ public class BotChatFactory {
     
     public static  BotChat createChat(){
         
-        return null;
+        return new TelegramChatBot();
     }
 }

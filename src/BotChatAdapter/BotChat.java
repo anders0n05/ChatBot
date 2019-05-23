@@ -10,5 +10,5 @@ package BotChatAdapter;
  * @author ITJ-ANDERSON
  */
 public interface BotChat {
-    
+    String respondendoUser();
 }

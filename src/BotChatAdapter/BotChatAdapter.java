@@ -10,12 +10,25 @@ package BotChatAdapter;
  * @author ITJ-ANDERSON
  */
 public class BotChatAdapter {
-
+ 
+    public BotChatAdapter(){
+        social = BotChatFactory.createChat();
+    }
+    
+    private BotChat social;
     /**
      * @param args the command line arguments
      */
     public static void main(String[] args) {
+        BotChatAdapter chat = new BotChatAdapter();
+        chat.respondendoUser();
+        
+        
         // TODO code application logic herehsghdgfd
+    }
+    
+    public String respondendoUser(){
+        return social.respondendoUser();
     }
     
 }
